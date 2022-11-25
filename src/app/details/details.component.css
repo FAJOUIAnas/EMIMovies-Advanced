@@ -1,0 +1,62 @@
+.Detail{
+  display: flex;
+  background-color: aqua;
+}
+.Desc{
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  text-align: center;
+  font-family: "Arial Black";
+  margin-top: 11rem;
+  font-size: 3em;
+  border-radius: 1rem;
+  color: blue;
+
+}
+.overview{
+  padding: 2.5rem;
+  text-align: center;
+  font-family: "Berlin Sans FB";
+  font-size: 1rem;
+}
+.imageFilm{
+  display: flex;
+  transform: scale(1.2);
+  padding: 3rem;
+  margin-top: 1rem;
+}
+.imageAffcihe{
+  border-radius: 2rem;
+}
+.date{
+  margin-left: 2rem;
+  font-family: "Berlin Sans FB";
+  font-size: 25px;
+}
+.release{
+  font-size: 22px;
+  text-decoration: underline;
+  height: fit-content;
+  width: fit-content;
+}
+.relaeseDate{
+  display: flex;
+  margin-left: 2rem;
+}
+.vote{
+  font-size: 22px;
+  text-decoration: underline;
+  height: fit-content;
+  width: fit-content;
+  margin-left: 2rem;
+}
+.voteDiv{
+  display: flex;
+}
+.voteValeur{
+  margin-left: 8rem;
+  font-family: "Berlin Sans FB";
+  font-size: 25px;
+}

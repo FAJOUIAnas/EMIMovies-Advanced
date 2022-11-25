@@ -1,0 +1,17 @@
+<div class="Detail">
+  <div class="imageFilm">
+    <img class="imageAffcihe" [src]="getUrl(films?.poster_path)">
+  </div>
+  <div class="Desc">
+  <p class="title">{{films?.title}}</p>
+  <p class="overview">{{films?.overview}}</p>
+    <div class="relaeseDate">
+      <p class="release">Release Date :</p>
+      <p class="date">{{films?.release_date}}</p>
+    </div>
+    <div class="voteDiv">
+      <p class="vote">Vote</p>
+      <p class="voteValeur">{{films?.vote_average}}</p>
+    </div>
+  </div>
+</div>

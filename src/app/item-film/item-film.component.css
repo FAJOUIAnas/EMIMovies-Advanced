@@ -1,0 +1,19 @@
+.image{
+  height: 300px;
+  width:300px;
+  border-radius: 2rem;
+  margin-right:3rem;
+}
+.titre{
+  text-align: center;
+  color: black;
+  font-family: Andalus;
+  font-family: "Arial Black";
+  word-wrap: break-word;
+}
+.imageComp{
+  display: flex;
+  flex-direction: column;
+  width:20em ;
+  margin-right: 4rem;
+}

@@ -1,0 +1,15 @@
+<div class="wrap">
+  <div class="search">
+    <input type="text" class="searchTerm" placeholder="What are you looking for?" #ref>
+    <button type="submit" class="searchButton" (click)="search(ref.value)">
+      <i class="fa fa-search"></i>
+    </button>
+  </div>
+</div>
+<div class="home">
+  <app-home></app-home>
+<ul class="listFilm" *ngFor="let film of films ; let i=index"  >
+  <app-item-film [filmItem]="film" (filmSelected)="affiche($event)" ></app-item-film>
+</ul>
+  <app-footer></app-footer>
+</div>
