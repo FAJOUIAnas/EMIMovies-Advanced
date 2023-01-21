@@ -15,10 +15,9 @@ import { FavorisComponent } from './favoris/favoris.component';
 import { SerchbarComponent } from './serchbar/serchbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {FormsModule} from "@angular/forms";
 const appRoutes :Routes =[
   {path :'' , component : ListFilmComponent},
-  {path :'SingIn' , component : SignINComponent},
-  {path :'SingOut' , component : SignOutComponent},
   {path :'Home' , component : HomeComponent},
   {path :'Details/:id' , component : DetailsComponent},
   {path :'Favoris' , component : FavorisComponent},
@@ -43,7 +42,8 @@ const appRoutes :Routes =[
     BrowserModule,
     HttpClientModule,
     RouterModule.forRoot(appRoutes),
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule
   ],
   providers: [FilmService],
   bootstrap: [AppComponent]

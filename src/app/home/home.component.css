@@ -26,5 +26,7 @@
 .Logo{
   size: 10rem;
 }
-
+a{
+  text-decoration: none;
+}
 
